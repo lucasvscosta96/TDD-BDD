@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="1" failures="0" name="io.cucumber.danilo.RunCucumberTest" time="0.462" errors="0" skipped="1">
+  <properties>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="java.vm.version" value="11.0.10+9"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/adoptopenjdk-11.jdk/Contents/Home/lib"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/lucas.vinicius.costa/Desktop/AcademyDevOps/estrutura-cucumber-vazia"/>
+    <property name="java.vm.vendor" value="AdoptOpenJDK"/>
+    <property name="java.vendor.url" value="https://adoptopenjdk.net/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="user.country" value="BR"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/lucas.vinicius.costa/Desktop/AcademyDevOps/estrutura-cucumber-vazia"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="11.0.10+9"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/wg/prpgb92j2114pd6x967v8_tw0000gn/T/"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/Users/lucas.vinicius.costa/.m2/wrapper/dists/apache-maven-3.6.3-bin/1iopthnavndlasol9gbrbg6bf2/apache-maven-3.6.3/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/lucas.vinicius.costa/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="maven.conf" value="/Users/lucas.vinicius.costa/.m2/wrapper/dists/apache-maven-3.6.3-bin/1iopthnavndlasol9gbrbg6bf2/apache-maven-3.6.3/conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.15.7"/>
+    <property name="user.home" value="/Users/lucas.vinicius.costa"/>
+    <property name="user.timezone" value="America/Sao_Paulo"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="user.name" value="accenture"/>
+    <property name="java.class.path" value="/Users/lucas.vinicius.costa/Desktop/AcademyDevOps/estrutura-cucumber-vazia/.mvn/wrapper/maven-wrapper.jar"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.apache.maven.wrapper.MavenWrapperMain test"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/adoptopenjdk-11.jdk/Contents/Home"/>
+    <property name="user.language" value="pt"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="11.0.10"/>
+    <property name="java.vendor" value="AdoptOpenJDK"/>
+    <property name="maven.home" value="/Users/lucas.vinicius.costa/.m2/wrapper/dists/apache-maven-3.6.3-bin/1iopthnavndlasol9gbrbg6bf2/apache-maven-3.6.3"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.version.date" value="2021-01-19"/>
+    <property name="java.vendor.url.bug" value="https://github.com/AdoptOpenJDK/openjdk-support/issues"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.vendor.version" value="AdoptOpenJDK"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase classname="Validar CPF" name="CPF Valido" time="0.462">
+    <skipped/>
+    <system-out>
+Cenario: CPF Valido                                         &amp;#27;[90m# io/cucumber/danilo/validadorCpf.feature:4&amp;#27;[0m
+  &amp;#27;[33mDado &amp;#27;[0m&amp;#27;[33mque eu esteja na pagina de validação de cpf&amp;#27;[0m          &amp;#27;[90m# null&amp;#27;[0m
+  &amp;#27;[36mE &amp;#27;[0m&amp;#27;[36mdigito um cpf valido &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m&quot;436.504.458-32&quot;&amp;#27;[0m                   &amp;#27;[90m# io.cucumber.danilo.ValidarCpfStep.digito_um_cpf_valido(java.lang.String)&amp;#27;[0m
+  &amp;#27;[33mQuando &amp;#27;[0m&amp;#27;[33meu clico no botão enviar&amp;#27;[0m                           &amp;#27;[90m# null&amp;#27;[0m
+  &amp;#27;[33mEntao &amp;#27;[0m&amp;#27;[33mdeve ver uma mensagem de &quot;CPF validado com sucesso&quot;&amp;#27;[0m &amp;#27;[90m# null&amp;#27;[0m
+</system-out>
+    <system-err>mar 25, 2021 5:14:29 PM io.cucumber.junit.Cucumber &lt;init&gt;
+ADVERTÊNCIA: By default Cucumber is running in --non-strict mode.
+This default will change to --strict and --non-strict will be removed.
+You can use --strict or @CucumberOptions(strict = true) to suppress this warning
+</system-err>
+  </testcase>
+</testsuite>
