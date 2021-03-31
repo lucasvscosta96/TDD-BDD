@@ -13,7 +13,7 @@ public class ValidarCpfStep {
 
     @Dado("que eu esteja na pagina de validação de cpf")
     public void que_eu_esteja_na_pagina_de_validacao_de_cpf() {
-      System.setProperty("webdriver.chrome.driver", "driver/chromedriver2");
+      System.setProperty("webdriver.chrome.driver", "driver/chromedriver_mac");
   
       browser = new ChromeDriver();
       browser.get("http://localhost:8082/#validate");
