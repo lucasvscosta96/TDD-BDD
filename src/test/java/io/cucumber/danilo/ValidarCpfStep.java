@@ -13,7 +13,7 @@ public class ValidarCpfStep {
 
     @Dado("que eu esteja na pagina de validação de cpf")
     public void que_eu_esteja_na_pagina_de_validacao_de_cpf() {
-      System.setProperty("webdriver.chrome.driver", "/Users/thiago.de.o.galeno/Projects/projeto-treinamento/TDD-BDD/driver/chromedriver_mac");
+      System.setProperty("webdriver.chrome.driver", "driver/chromedriver_linux");
   
       browser = new ChromeDriver();
       browser.get("http://localhost:8082/#validate");
@@ -22,7 +22,7 @@ public class ValidarCpfStep {
     @Dado("digito um cpf válido {string}")
     public void digito_um_cpf_valido(String string) {
       WebElement campoNome = browser.findElement(By.name("nome"));
-      campoNome.sendKeys("Thiago");
+      campoNome.sendKeys("Luis");
   
       WebElement campoCpf = browser.findElement(By.name("cpf"));
       campoCpf.sendKeys(string);
