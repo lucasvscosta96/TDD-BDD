@@ -16,7 +16,7 @@ public class ValidarCpfStep {
       System.setProperty("webdriver.chrome.driver", "driver/chromedriver_mac");
   
       browser = new ChromeDriver();
-      browser.get("http://localhost:8082/#validate");
+      browser.get("http://localhost:8082");
     }
   
     @Dado("digito um cpf válido {string}")
